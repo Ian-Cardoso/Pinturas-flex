@@ -1,0 +1,53 @@
+
+
+.pinturas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg{
+    width: 335px ;
+    height: 431px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 129px 21px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.van-gogh{
+    background-image: url(./src/img/van-gogh-noite-estrelada-d-450x356.jpg);
+}
+
+.ceil{
+    background-image: url(./src/img/rome-sistine-chapel-ceiling2.jpg);
+}
+
+.brito{
+    background-image: url(./src/img/9f93f946f25cb5b7695002eb3c3323a9_c.webp);
+}
+
+.mar{
+    background-image: url(./src/img/5734b0d96e31f091130ac4d524094d4c.jpg);
+}
+
+.informacao{
+    padding: 10px;
+    color: #ffff;
+}
+
+@media (max-width: 1024px) {
+    .pintura{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .bg{
+        margin: 0;
+    }
+}
+
+
